@@ -2,7 +2,7 @@
 title: "Onboarding: Making the most of joining a new team"
 author: Jen
 slug: onboarding
-published: true 
+status: published
 categories:
 - Software Development 
 tags:

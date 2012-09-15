@@ -1,5 +1,4 @@
 ---
-
 title: "clojure/conj 2011"
 author: Jen
 slug: clojure-conj-2011
@@ -10,9 +9,6 @@ categories:
 tags:
 - clojure
 - conference
-- hello
-layout: default
-
 ---
 clojure/conj 2011 was announced around about when I was preparing to
 move to Chicago and right after 3 full on days of clojure training. A
