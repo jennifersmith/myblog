@@ -1,0 +1,130 @@
+---
+title: "clojure/conj 2011"
+author: Jen
+slug: clojure-conj-2011
+published: true 
+categories:
+- Software Development 
+tags:
+- clojure
+- conference
+---
+clojure/conj 2011 was announced around about when I was preparing to
+move to Chicago and right after 3 full on days of clojure training. A
+combination of being massively enthusiastic about clojure and my
+relocation to the same country as the conj caused me to sign up as
+soon as I arrived.
+
+The three days were incredibly intense but also incredibly
+enjoyable. I have come away having learnt a great deal - from the
+sessions and from the conversations that took place afterwards. 
+
+The following is an assortment of the highlights of the conference for
+me in no particular order.
+
+### Single track
+
+Among the people I talked to this was widely recognised as a major
+asset. We've all been to conferences where we have made the wrong
+choice and missed something really interesting. Having a single track
+meant we all saw the same presentations and made the conference feel a
+great deal more intimate.
+
+### Variety of talks
+
+For a conference focussing on a single language, there was a wide
+variety in subject matter. We covered a variety of topics - logic, logging, music,
+map/reduce, data structures, performance - in addition to deep looks
+at the language itself. I would say I managed to follow about 75% of
+the talks. 
+
+
+Logic programming and some of the more advanced talk about
+functional data structures was so new to me that I found it tough to
+follow. But importantly it's made me want to know more and to
+understand these things. I don't have a particularly academic
+background so I am coming into much of this stuff pretty cold, but
+what I really like about clojure and the community around it is it
+makes me feel comfortable and confident in learning. I mean, one day I
+actually might understand what monads are...
+
+### Real world usages of clojure
+
+There were a handful of more practical applications of clojure too. I
+am sure I have missed a load of them out, but here are the ones I can
+remember:
+
+Heroku's treatment of [logs as
+data](https://github.com/relevance/clojure-conj/blob/master/2011-slides/mark-mcgranaghan-logs-as-data.pdf)
+described how they rethought the concept of logging to be concerned
+with the emitting and handling of events with associated data rather
+than being strings dumped to a file. Their use of
+[pulse](https://github.com/jnewland/pulse) to emit events from rails
+applications and [logplex](https://github.com/heroku/logplex) to allow
+different consumers to subscrbe to these events realtime is a pattern
+I had never really considered for application events/log messages. 
+
+David McNeil spoke on how revelytix use [concurrent stream
+processing](https://github.com/relevance/clojure-conj/blob/master/2011-slides/mark-mcgranaghan-logs-as-data.pdf)
+helped them parallelize querys over multiple databases. They took
+inspiration from the way in which unix commands work: asynchronously
+pushing/pulling data with pipes and built a similar model in
+clojure. This allowed them to express trees of nodes and pipelines
+representing how they wanted the data from multiple sources to be
+selected, filtered and aggregated. This tree is then fed into a
+fork/join threadpool for execution.
+
+The code is not something that they
+have made available (yet) and I wonder how similar their approach is
+to something like [Aleph](https://github.com/ztellman/aleph) - David
+did mention that they started by using
+[Lamina](https://github.com/ztellman/lamina) on which Aleph is based.
+
+Nathan Marz gave an excellent talk on Cascalog
+([slides](https://github.com/relevance/clojure-conj/blob/master/2011-slides/nathan-marz-cascalog.pdf)). [Cascalog](http://cascalog.org)
+is a clojure library, built on top of the Java library
+[Cascading](http://www.cascading.org/), allowing processing and
+querying of big data in hadoop. The power and flexibility of clojure
+allows cascalog to be great abstraction layer on top of hadoop
+map/reduce. This presentation was very code-sample heavy, which brings
+me to the next highlight:
+
+### Code!
+
+For a conference dedicated to a language, it is not suprising that we
+saw a significant amount of code samples and live demos. It made a
+great deal of sense for example in Anthony Grime's
+[Clojail](https://github.com/relevance/clojure-conj/blob/master/2011-slides/anthony-grimes-clojail.pdf)
+presentation to demonstrate how clojail provides a sandbox for clojure
+execution. I particularly appreciated how he used rectangles to
+highlight individual parts of the screen as he explained what was
+happening.
+
+### Music
+
+Sam Aaron's
+[Overtone](https://github.com/relevance/clojure-conj/blob/master/2011-slides/samaaron-overtone.pdf)
+talk was one of the most enjoyable of the week. [Overtone](http://rosejn.github.com/overtone/) is a clojure
+library written to interface with
+[Supercollider](http://supercollider.sourceforge.net/): a
+client/server style audio synthesis platform. I had looked at Overtone
+before the conference (and had my ears nearly blown off by an
+excessively amplified sinewave!), but I was not aware of some of the
+more clever things it does under the hood. It was great to hear Sam's
+explanations of the drivers behind Overtone: the desire to have a
+system of notation/language for electronic music in the same way as we
+have sheet music.
+I am glad they saved this talk until the end as it meant he could continue showing us demos of
+music written using overtone, using external input devices as well as
+creating music from the REPL. I hope the video of this become
+available soon as it is well worth watching. He got a standing ovation
+which was definitely well deserved.
+
+### Other links
+
+During the conference, Phil Potter spent a lot of time [hacking on
+Overtone](https://github.com/ppotter/beat-monad) and using the continuation monad to create loops and
+sequences. Last I heard, it was a little Radiohead, a little Aphex
+Twin with some added theremin on top.
+
+The rest of the slides are available on [Github](https://github.com/relevance/clojure-conj/tree/master/2011-slides).
