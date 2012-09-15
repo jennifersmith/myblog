@@ -7,8 +7,9 @@ require "stringex"
 ssh_user       = "user@domain.com"
 ssh_port       = "22"
 document_root  = "~/website.com/"
+s3_bucket = "www.jennifersmith.co.uk"
 rsync_delete   = true
-deploy_default = "rsync"
+deploy_default = "deploy_s3"
 
 # This will be configured for you when you run config_deploy
 deploy_branch  = "gh-pages"
@@ -294,6 +295,11 @@ task :set_root_dir, :dir do |t, args|
   end
 end
 
+desc "Deploy to s3 bucket"
+multitask :deploy_s3 do
+  puts "## Deploying website via s3cmd"
+  ok_failed system("s3cmd sync --acl-public --reduced-redundancy site/public/* s3://#{s3_bucket}/")
+end
 desc "Set up _deploy folder and deploy branch for Github Pages deployment"
 task :setup_github_pages, :repo do |t, args|
   if args.repo
