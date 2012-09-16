@@ -165,7 +165,6 @@ module Jekyll
     def do_layout(payload, layouts)
       pre_render if respond_to?(:pre_render)
       old_do_layout(payload, layouts)
-      puts method(:old_do_layout).source_location
     end
 
     # Returns the full url of the post, including the
