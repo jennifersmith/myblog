@@ -298,7 +298,7 @@ end
 desc "Deploy to s3 bucket"
 multitask :deploy_s3 do
   puts "## Deploying website via s3cmd"
-  ok_failed system("s3cmd sync --acl-public --reduced-redundancy site/public/* s3://#{s3_bucket}/")
+  ok_failed system("s3cmd sync --acl-public --reduced-redundancy public/* s3://#{s3_bucket}/")
 end
 desc "Set up _deploy folder and deploy branch for Github Pages deployment"
 task :setup_github_pages, :repo do |t, args|
