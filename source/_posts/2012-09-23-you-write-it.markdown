@@ -5,7 +5,7 @@ date: 2012-10-06 16:56
 comments: true
 categories: 
 - software development
-published: false
+published: true
 tags : devops, appdev
 ---
 
