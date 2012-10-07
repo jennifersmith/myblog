@@ -5,6 +5,7 @@ date: 2012-10-06 16:56
 comments: true
 categories: 
 - software development
+published: false
 tags : devops, appdev
 ---
 
@@ -108,7 +109,7 @@ that they are supposed to be writing the code not supporting it! If
 they spend all their time supporting code in production then they will
 get less features into the product, velocity targets etc. etc.
 
-Well this argument presupposes two things: One, that support will take
+This argument presupposes two things: One, that support will take
 up a significant amount of their time; two, that writing new features
 is more important than supporting existing features.
 
@@ -121,32 +122,28 @@ than new, unproven features_!
 
 ### What about the devops team?
 
-So if the task of supporting the application in production is now the
-responsbility of the developers, what does the devops team do? It
-sounds a little like I am doing them out of a job.
+Have I taken away part of this team's job? Well not really. In the
+last few months that I have spent as part of this team I have noticed
+that this firefighting detracts a great deal from our actual
+work. It's actually pretty difficult too as we are trying to support
+code and features that we didn't write. Raising bugs and communicating
+the work that needs to be done to the dev team also takes a long time.
 
-For our team right now, supporting the system in production and
-"firefighting" is detracting from the real work in managing the other
-parts of the infrastructure that support the application - managing
-load balancers, VMs and starting to tackle hard problems like 
-autoscaling and disaster recovery. We lack the context that the
-developers of the applications have to effectively support
-them. We also have to spend a great deal of time explaining bugs and
-features to our development team to allow them to have sufficient
-information to recreate and fix these issues.
+Just like the application teams, we have features and systems
+that we are developing and looking after. Instead of web sites and
+services, we look after servers, provisioning, load balancers,
+replication. In fact when it comes down to it, we are just another dev
+team responsible for a distinct set of components.
 
-I am not suggesting that our team completely stop worrying about
-supporting our applications. In fact that would be extremely silly as
-most of our team have a great deal of experience in fault
-localisation, diagnosis and mitigation. I am spending some time
-in the devops team (I like to think of it as a secondment!) and the
-amount I have been learning from the rest of my team is incredible! I
-hope to take these skills back with me into my normal role. 
+Does that mean the devops team should stop firefighting all together?
+Probably not. Individuals in our teams have a great deal of experience
+and many tools and tecniques up their sleeves for fault localisation,
+mitigation and so on (even if it is just being handy with
+netcat!). Losing that would be silly.
 
-I believe that the role of the devops team when it comes to
-application support should that of guidance, support and collaboration
-with the application developers. I believe that is really what
-'devops' means after all.
+The role of the devops team when it comes to application support
+should that of guidance, support and collaboration with the
+application developers. I believe that is really what 'devops' means after all.
 
 \* I use inverted commas here as I don't think 'devops' is a great
 name for a team
