@@ -7,6 +7,7 @@ categories:
 - Software Development 
 tags:
 - onboarding
+comments: true
 ---
 
 Joining a project can be tough. Some things are the same, but there is so much to learn: the domain of the application, the architecture, the environment (usually I am working on a client site), the names of all the people interacting with your team. Oh and maybe finding your way around the code is pretty important too! 

@@ -8,6 +8,7 @@ categories:
 tags:
 - google-docs
 - templates
+comments: true
 ---
 
 I was hunting for a decent letter template on google docs and could not

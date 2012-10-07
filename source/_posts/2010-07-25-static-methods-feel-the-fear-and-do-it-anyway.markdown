@@ -9,6 +9,7 @@ tags:
 - design
 - c#
 - refactoring
+comments: true
 ---
 
 When your tests go green, it's often a good idea to think about tidying

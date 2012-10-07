@@ -8,6 +8,7 @@ categories:
 tags:
 - qcon
 - nodejs
+comments: true
 ---
 
 Stefan Tilkov started this talk by discussing the difference between

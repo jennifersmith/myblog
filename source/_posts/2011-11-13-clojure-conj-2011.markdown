@@ -9,6 +9,7 @@ categories:
 tags:
 - clojure
 - conference
+comments: true
 ---
 clojure/conj 2011 was announced around about when I was preparing to
 move to Chicago and right after 3 full on days of clojure training. A
