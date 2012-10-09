@@ -5,17 +5,14 @@ date: 2012-10-06 16:56
 comments: true
 categories: 
 - software development
-published: true
 tags : devops, appdev
 ---
 
-I have spent the last few months working in our 'devops' team *. I
+I have spent the last few months working in our 'devops' team. I
 have learnt a great deal of new things - and it has been really
 enjoyable thanks in no small part to the patience of my team mates in
 helping me understand unfamiliar concepts (like DNS - wow that's a doozy).
 
-(\* I use inverted commas here as I don't think 'devops' is a great
-name for a team)
 
 I have moved from writing new features to having to support these
 features in production. If something goes wrong, it's
