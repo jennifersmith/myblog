@@ -1,0 +1,47 @@
+---
+layout: post
+title: "GOTO Aarhus 2012"
+date: 2012-10-10 21:50
+comments: true
+categories: 
+---
+
+I spent the first half of last week hanging out in Aarhus for
+GOTO. This was my first time at GOTO - I have been to QCon a few times
+so I guess I knew what to expect. Both GOTO and QCon are very Software
+Development centric conferences, covering a broad range of topics. I
+found that I tended to stick to one or two tracks a day so my
+conference experience tended to focus on continuous delivery
+and NoSQL.
+
+One notable thing about GOTO is the fact that the speakers are
+invited. I think in many cases that lead to some really interesting
+and well executed talks. However there were a few that failed in the
+timing/audience consideration/delivery stakes which was a shame but I
+still enjoyed a great many of the talks.
+
+** The Keynotes
+
+There were
+[five keynote speakers](http://gotocon.com/aarhus-2012/keynotes/) - I
+managed to get to four of them. Ideally keynotes for me should be
+entertaining and informing but very much swayed towards the
+entertaining. It's great when they are on an unfamiliar but
+interesting topic.
+
+Damian Conway's
+[talk](http://gotocon.com/aarhus-2012/presentation/Contratemporal%20Virtual%20Nanomachine%20Programming%20In%20Topologically%20Connected%20Quantum-Relativistic%20Parallel%20Spacetimes...Made%20Easy%21)
+\- not sure I can fully do the title justice in my 640px layout -
+greatly demonstrated all that I think a keynote at a tech conference
+should be. I don't want to give too much away as it is well worth
+watching a video of the talk so I will just leave you with part of the
+abstract:
+> Watch in horror as Damian writes a Perl program to extract square
+> roots using nothing but quantum mechanics, general relativity, and the
+> very fabric of the space-time continuum.
+
+My only regret was that this was at the end of the first, pretty
+exhausting day. I would like to have been more alert to follow the
+craziness that Damian seemed to be conjuring with just simple Perl code.
+
+
