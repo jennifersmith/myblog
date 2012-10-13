@@ -20,7 +20,7 @@ and well executed talks. However there were a few that failed in the
 timing/audience consideration/delivery stakes which was a shame but I
 still enjoyed a great many of the talks.
 
-** The Keynotes
+### The Keynotes
 
 There were
 [five keynote speakers](http://gotocon.com/aarhus-2012/keynotes/) - I
@@ -42,6 +42,24 @@ abstract:
 
 My only regret was that this was at the end of the first, pretty
 exhausting day. I would like to have been more alert to follow the
-craziness that Damian seemed to be conjuring with just simple Perl code.
+craziness that Damian seemed to be conjuring with only perl as his
+weapon.
 
+### NoSQL
+
+There was a good representation from many of the NoSQL vendors both in
+the booths and in the talks. This was not more fully demonstrated than
+at
+[The Aarhus 6](http://gotocon.com/aarhus-2012/presentation/The%20Aarhus%206)
+panel discussion with Neo4j, CouchDB, MongoDB, Cassandra and Riak
+represented. It was a pretty entertaining session with some
+interesting discussion but I am not sure I came away with it massively
+more clear on when I would use a KV store and when I would use a graph
+database. 
+
+I found that Martin Fowler's
+[Introduction to NoSQL](http://gotocon.com/aarhus-2012/presentation/Introduction%20to%20NoSQL)
+would have been a great prelude to most of the NoSQL talks. I
+think it was a good introductory talk and I appreciated the
+distinction between aggregate 
 
