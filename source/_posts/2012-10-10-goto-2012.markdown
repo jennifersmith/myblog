@@ -60,6 +60,20 @@ database.
 I found that Martin Fowler's
 [Introduction to NoSQL](http://gotocon.com/aarhus-2012/presentation/Introduction%20to%20NoSQL)
 would have been a great prelude to most of the NoSQL talks. I
-think it was a good introductory talk and I appreciated the
-distinction between aggregate 
+think it was a good introductory talk and I really appreciate the
+distinction he made between 'aggregate oriented' databases - key
+value, document, column family - and graph databases (just neo4j there
+as far as I can see!). Seeing the thing you store as an aggregate
+brings in the DDD thinking of aggregates as 'units of consistency' -
+in all these databases writing of the aggregate is immediately
+consistent. If you find yourself wanting two aggregates to be updated
+in one transaction, that might be a sign you have not got the most
+optimal model for what you are trying to do.
+
+### Continuous Delivery
+
+
+
+
+
 
