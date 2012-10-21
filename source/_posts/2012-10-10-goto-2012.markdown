@@ -1,18 +1,18 @@
 ---
 layout: post
 title: "GOTO Aarhus 2012"
-date: 2012-10-10 21:50
+date: 2012-10-22 08:00
 comments: true
 categories: 
 ---
 
 I spent the first half of last week hanging out in Aarhus for
 GOTO. This was my first time at GOTO - I have been to QCon a few times
-so I guess I knew what to expect. Both GOTO and QCon are very Software
-Development centric conferences, covering a broad range of topics. I
+so I guess I knew what to expect. Both GOTO and QCon are very
+software-centric conferences, covering a broad range of topics. I
 found that I tended to stick to one or two tracks a day so my
-conference experience tended to focus on continuous delivery
-and NoSQL.
+conference experience tended to focus on continuous delivery and
+NoSQL.
 
 One notable thing about GOTO is the fact that the speakers are
 invited. I think in many cases that lead to some really interesting
@@ -25,7 +25,7 @@ still enjoyed a great many of the talks.
 There were
 [five keynote speakers](http://gotocon.com/aarhus-2012/keynotes/) - I
 managed to get to four of them. Ideally keynotes for me should be
-entertaining and informing but very much swayed towards the
+entertaining and informative but very much biased towards the
 entertaining. It's great when they are on an unfamiliar but
 interesting topic.
 
@@ -42,7 +42,7 @@ abstract:
 
 My only regret was that this was at the end of the first, pretty
 exhausting day. I would like to have been more alert to follow the
-craziness that Damian seemed to be conjuring with only perl as his
+craziness that Damian seemed to be conjuring with only Perl as his
 weapon.
 
 ### NoSQL
@@ -62,7 +62,7 @@ I found that Martin Fowler's
 would have been a great prelude to most of the NoSQL talks. I
 think it was a good introductory talk and I really appreciate the
 distinction he made between 'aggregate oriented' databases - key
-value, document, column family - and graph databases (just neo4j there
+value, document, column family - and graph databases (just Neo4j there
 as far as I can see!). Seeing the thing you store as an aggregate
 brings in the DDD thinking of aggregates as 'units of consistency' -
 in all these databases writing of the aggregate is immediately
@@ -72,8 +72,79 @@ optimal model for what you are trying to do.
 
 ### Continuous Delivery
 
+There was a Tuesday track dedicated to topics around Continuous
+Delivery and I spent a great deal of time hanging around this
+track. Common themes seemed to revolve around real experiences of
+continuous delivery and addressing the common "yes but" arguments
+around things like database changes and managing release vs deployment
+of features.
 
+#### Continuous Delivery: The Dirty Details
 
+Mike Brittain's talk
+[Continuous Delivery: The Dirty Details](http://gotocon.com/aarhus-2012/presentation/Continuous%20Delivery:%20The%20Dirty%20Details)
+described how Continuous Delivery works at
+[Etsy](http://www.etsy.com/) and how they went from an infrequent, 6
+hour release time to a whole deployment process that takes around 15
+minutes. 
 
+Their approach to feature flags was rather pleasingly lo-fi - just
+simply a PHP array of values. Values could be anything from "off",
+"staff" (meaning that they just show to staff) or a percentage value,
+indicating the percentage of requests who should see this
+change. Interestingly, a change to a flag would be counted as a
+deployment in itself but taking 5 minutes rather than 15
+minutes. Release of a feature could be made gradually - release to
+staff, then to 1%, 2% of users etc. The developers of that feature
+would keep an eye on the metrics while that feature was being rolled
+out to ever increasing sets of users.
 
+Mike also described how they made schema changes - a common blocker in
+most people's thinking about more rapid releases of software. Schema
+changes at Etsy are only carried out one day a week and they greatly
+prefer to make additive changes rather than remove columns. He
+described the example of denormalisation of their user preferences
+table as a series of gradual changes from reading/writing to the old
+table, simultaneous writes to old and new, to reads from the new
+table and retiring of the new table. All of these changes were
+controlled by feature flags. Instinctively this feels like it would
+take a long time, but if you think about it you are seeing the code go
+into production at each step rather than one big schema and code
+change at once. It seems to me that decoupling releases from schema
+changes is essential for continual release.
 
+Gradual roll-out of features to users has some architectural
+benefits.  When writing new and experimental
+features, the developers do not worry so much about taking shortcuts
+the first time around. They will get advice from architects/senior
+developers on the team to ensure they won't be causing problems for
+scaling up the feature later. As Mike said in his
+presentation, you don't need to worry about doing it 'properly'  when
+you are targeting the 1% in your gradual roll-out and in many cases
+your assumptions are going to be wrong when you scale up 10x anyway so
+best not spend too much time thinking about the architecture up
+front. "We don't optimise for being right, we optimise for quickly detecting
+when we are wrong".
+
+### Disband the Deployment Army
+
+Michael Nygard's
+[Disband the Deployment Army](http://gotocon.com/aarhus-2012/presentation/Disband%20the%20Deployment%20Army)
+was a great discussion of the conflicting goals of stability and
+frequent deployments.  The body of the talk described a number of the very good practices
+that you can use to reduce both the risk of deployment and the cost of
+errors. However, what I found most compelling was his choice to base
+the body of the talk and his arguments for more rapid release
+around the notion of risk.
+
+We tend to think of risk in a very human way
+(unsurprisingly!) and most people's definition of risk is "the chance
+something bad is going to happen". Nygard argues that risk in terms of
+software deployment is more practical to think of in a more
+quantitative/statistical manner: the expected loss from undesirable
+events. If we take this perspective on risk, we can start to bring in concepts
+from more risk-aware disciplines: actuarial science, risk analysis,
+security and so on. I took a lot of good ideas away from the talk:
+suggestions about tools and practices but more importantly some great
+ideas of how to justify and explain the benefits of continuous
+delivery in terms of risk. 
