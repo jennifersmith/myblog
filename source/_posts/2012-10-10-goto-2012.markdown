@@ -126,7 +126,7 @@ best not spend too much time thinking about the architecture up
 front. "We don't optimise for being right, we optimise for quickly detecting
 when we are wrong".
 
-### Disband the Deployment Army
+#### Disband the Deployment Army
 
 Michael Nygard's
 [Disband the Deployment Army](http://gotocon.com/aarhus-2012/presentation/Disband%20the%20Deployment%20Army)
@@ -148,3 +148,12 @@ security and so on. I took a lot of good ideas away from the talk:
 suggestions about tools and practices but more importantly some great
 ideas of how to justify and explain the benefits of continuous
 delivery in terms of risk. 
+
+## My Notes
+
+I went to loads more interesting talks in addition to what I have
+summarised here and took notes. They are all
+in [this repo](https://github.com/jennifersmith/gotoaar2012) if you
+are interested or you just want to marvel at my mastery of about three
+pieces of org-mode syntax.
+
