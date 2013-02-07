@@ -67,7 +67,7 @@ monitoring.
 
 That is addressing the symptoms, but not the underlying cause. I
 believe that the underlying cause is: **the people responsible for
-writing the software are not responsible for it's time in production**.
+writing the software are not responsible for its time in production**.
 
 Right now our feedback loops look a little like this:
 
