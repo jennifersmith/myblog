@@ -46,6 +46,7 @@ _Source: [Narcolepsy: A case from India with polysomnographic findings](http://w
 
 
 The key differences to note:
+
 + Narcolepsy sufferers stay for longer in REM than NREM, so get less good quality restorative sleep for the same amount of time asleep.
 + Narcolepsy sufferers drop straight into REM sleep pretty much immediately, while non-sufferers sink into a deep sleep first. This can lead to all sorts of crazy stuff.
 
