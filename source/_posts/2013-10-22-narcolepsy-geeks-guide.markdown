@@ -4,7 +4,7 @@ title: "Narcolepsy: A Geek's Guide"
 date: 2013-10-22 09:40
 comments: true
 categories: misc
-published: false
+published: true
 ---
 
 I have a condition called Narcolepsy with Cataplexy. Narcolepsy with Cataplexy is a chronic sleep disorder that affects an incredibly exclusive proportion of the population - around 1 in 2000. The condition is hard to diagnose although awareness is increasing. I was diagnosed a few years ago but I don't really find it easy to talk about the condition. It's important for friends and colleagues to understand the condition a little bit so here I present "Narcolepsy: A Geek's Guide". And I am sorry to call you all "geeks".
