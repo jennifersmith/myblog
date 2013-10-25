@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Narcolepsy: A Geek's Guide"
-date: 2013-10-22 09:40
+date: 2013-10-25 09:40
 comments: true
 categories: misc
 published: true
@@ -65,10 +65,8 @@ Crazy stuff you say?
 
 The official terms for the phenomena narcoleptics tend to experience
 on falling asleep are <a
-href="https://en.wikipedia.org/wiki/Hypnagogia">Hypnogogic
-Hallucinations</a> and <a
-href="https://en.wikipedia.org/wiki/Sleep_paralysis">Sleep
-Paralysis</a>. They occur because we are still conscious and aware,
+href="https://en.wikipedia.org/wiki/Hypnagogia">Hypnogogic Hallucinations</a> and <a
+href="https://en.wikipedia.org/wiki/Sleep_paralysis">Sleep Paralysis</a>. They occur because we are still conscious and aware,
 but our body is dropping into REM sleep prematurely.
 
 
@@ -235,12 +233,7 @@ sickly teenager so why doesn't half the planet suffer from Narcolepsy?
 Well it turns out that it is all down to a specific version of a
 specific part of my copy of chromosome 6: <a
 href="http://en.wikipedia.org/wiki/Human_leukocyte_antigen">HLA</a>. Well
-actually, <a
-href="http://www.mayomedicallaboratories.com/interpretive-guide/?alpha=N&amp;unit_code=82026">more
-specifically</a> <a
-href="http://ghr.nlm.nih.gov/gene/HLA-DQB1">HLA-DQB1</a> and the
-specific version of that genetic software I am likely to be running:
-HLA-DQB1*06:02. It is the combination of the specific marker, some
+actually, [more specifically](http://www.mayomedicallaboratories.com/interpretive-guide/?alpha=N&amp;unit_code=82026) <a href="http://ghr.nlm.nih.gov/gene/HLA-DQB1">HLA-DQB1</a> and the specific version of that genetic software I am likely to be running: HLA-DQB1*06:02. It is the combination of the specific marker, some
 sort of cough or cold and a tiny little bit of bad luck.
 
 
@@ -277,30 +270,20 @@ of the neurological explanations completely wrong or misleading too!
 Some exciting links
 ---------
 
-Find out more about the <a
-href="http://en.wikipedia.org/wiki/Sleep_paralysis">sleep paralysis in
-folklore</a> from Wikipedia.
+Find out more about [sleep paralysis in folklore](http://en.wikipedia.org/wiki/Sleep_paralysis).
 
 
-<a
-href="http://psychiatry.stanford.edu/narcolepsy/faq1.html">Stanford's
-FAQs</a> on Narcolepsy are a good non-Wikipedia information source
-about the current research and causes etc.
+[Stanford's FAQs](http://psychiatry.stanford.edu/narcolepsy/faq1.html)
+on Narcolepsy are a good non-Wikipedia information source about the current research and causes etc.
 
 
-<a href="http://www.semel.ucla.edu/sites/all/files/sleep-research//04
-neurotransmitters J clin psych Siegel.pdf">The neurotransmitters of
-sleep - J Siegel</a> : goes into deeper detail about the different
+<a href="http://www.semel.ucla.edu/sites/all/files/sleep-research//04 neurotransmitters J clin psych Siegel.pdf">The neurotransmitters of sleep - J Siegel</a> : goes into deeper detail about the different
 neurotransmitters and neuron systems responsible for sleep.
 
 
 ![Sleeping at my desk](/images/sleepydesk.png)
 
 
-[1] <a
-href="http://en.wikipedia.org/wiki/The_Diving_Bell_and_the_Butterfly">The
-Diving Bell and the Butterfly</a> is a beautiful film about the
-memoirs of a man suffering from locked-in syndrome. I enjoyed the film
-but after watching it I did suffer through a few panicky sleep
-paralysis episodes where I was convinced I was permanently paralysed.
+[1] [The Diving Bell and The Butterfly](http://en.wikipedia.org/wiki/The_Diving_Bell_and_the_Butterfly)
+is a beautiful film about the memoirs of a man suffering from locked-in syndrome. I enjoyed the film but after watching it I did suffer through a few panicky sleep paralysis episodes where I was convinced I was permanently paralysed.
 
